@@ -155,4 +155,4 @@ CORS_ALLOWED_ORIGINS = [
     "http://first-app-todo.azurewebsites.net",
 ]
 
-CSRF_TRUSTED_ORIGINS = ['https://'+ os.environ["http://first-app-todo.azurewebsites.net"]]
+CSRF_TRUSTED_ORIGINS = ["http://first-app-todo.azurewebsites.net"]
