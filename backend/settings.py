@@ -154,3 +154,5 @@ CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000", 
     "https://first-app-todo.azurewebsites.net",
 ]
+
+CSRF_TRUSTED_ORIGINS = ["https://first-app-todo.azurewebsites.net"]
